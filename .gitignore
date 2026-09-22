@@ -1,0 +1,30 @@
+# Data files
+data/
+*.csv
+*.parquet
+
+# Credentials and secrets
+creds
+creds.*
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
