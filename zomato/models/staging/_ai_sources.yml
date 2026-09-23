@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ai
+    database: ZOMATO
+    schema: AI
+    description: "LLM-enriched review data generated using Groq."
+    tables:
+      - name: review_enriched
+        description: "Review sentiment, topic, and key issue."
